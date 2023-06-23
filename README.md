@@ -1,3 +1,3 @@
 # shoppy
 
-Учебный проект интернет магазина / Educational project of the online store
+Верстка основных страниц интернет магазина / Layout of the main pages of the online store
