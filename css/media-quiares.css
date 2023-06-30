@@ -163,14 +163,6 @@
         height: 530px;
     }
 
-    .catalog-body {
-        column-gap: 12px;
-    }
-
-    .arrow-scroll {
-        display: none;
-    }
-
     .catalog-card {
         width: 180px;
     }

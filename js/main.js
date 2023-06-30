@@ -18,7 +18,7 @@ const swiper = new Swiper('.swiper-offer', {
       clickable: true
     },
     breakpoints: {
-        428: {
+        320: {
           initialSlide: 2,
           speed: 4000,
           loop: true,
@@ -35,6 +35,33 @@ const swiper = new Swiper('.swiper-offer', {
     }
 })    
 // slider out
+// slider-catalog
+new Swiper ('.swiper-catalog', {
+  
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+      initialSlide: 2,
+      slidesPerGroup: 2,
+      spaceBetween: 15,
+      speed: 4000,
+      loop: true,
+      effect: "slide" 
+    },
+    1480: {
+      slidesPerView: 4,
+      slidesPerGroup: 1,
+      spaceBetween: 25,
+      initialSlide: 4,
+      speed: 4000,
+      loop: true,
+      effect: "slide",
+    }
+    
+} 
+})
+
+// slider-catalog out
 // footer dropdown list
 const dropBtn = document.querySelector('#drop-list')
 const dropMenu = document.querySelector('.footer-menu-mobile')

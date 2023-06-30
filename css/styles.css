@@ -390,37 +390,12 @@ body {
     height: 780px;
 }
 
-.arrow-scroll {
-    position: absolute;
-    right: -22px;
-    top: 195px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 40px;
-    animation: pulsar 1s infinite
+.swiper-catalog {
+    min-width: 0;
 }
 
-.arrow-scroll:hover {
-    box-shadow: 0px 0px 33px rgba(54, 88, 172, 0.4);
-
-}
-
-.arrow-scroll:hover path {
-    fill: #1F6CBE;
-}
-
-@keyframes pulsar {
-    0% {
-        box-shadow: 0 0 25px rgba(54, 88, 172, 0.4);
-    }
-
-    50% {
-        box-shadow: 0 0 75px rgba(54, 88, 172, 0.4);
-        ;
-    }
-
-    100% {
-        box-shadow: 0 0 100px rgba(54, 88, 172, 0.4);
-    }
+.swiper-wrapper-catalog {
+    padding: 28px 0 0 30px;
 }
 
 .breadcrumb {
@@ -444,14 +419,12 @@ body {
 
 .catalog-body-wrapper {
     position: relative;
+    left: -14px;
 }
 
 .catalog-body {
-    margin-left: -30px;
-    padding: 28px 0 0 16px;
     display: flex;
     align-items: flex-start;
-    column-gap: 25px;
     overflow: auto;
     scroll-snap-type: x mandatory;
 }
