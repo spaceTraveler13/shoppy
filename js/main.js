@@ -56,11 +56,9 @@ new Swiper ('.swiper-catalog', {
       speed: 4000,
       loop: true,
       effect: "slide",
-    }
-    
+    } 
 } 
 })
-
 // slider-catalog out
 // footer dropdown list
 const dropBtn = document.querySelector('#drop-list')
